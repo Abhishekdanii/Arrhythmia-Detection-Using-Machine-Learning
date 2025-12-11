@@ -1,5 +1,5 @@
 # Arrhythmia-Detection-Using-Machine-Learning
-This project builds an intelligent system for detecting arrhythmias from ECG signals using both classical machine learning techniques and emerging deep learning approaches. Arrhythmias—irregular heart rhythms—can indicate serious cardiac issues, and early detection is crucial for effective intervention. Our goal is to create a robust, accurate, and healthcare-focused classification pipeline.
+This project builds an intelligent system for detecting arrhythmias from ECG signals using both classical machine learning techniques and emerging deep learning approaches. Arrhythmias—irregular heart rhythms—can indicate serious cardiac issues, and early detection is crucial for effective intervention. Our goal is to create a robust, accurate, and healthcare-focused classification pipeline that can predict whether a person’s heartbeat is normal or indicates an arrhythmia.
 
 ⭐ Project Overview
 
