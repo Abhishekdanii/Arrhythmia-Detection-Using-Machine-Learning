@@ -1,14 +1,14 @@
 # Arrhythmia-Detection-Using-Machine-Learning
-This project aims to build an intelligent system that can automatically detect arrhythmias from ECG signals. Arrhythmias—irregular heartbeats—can be early indicators of cardiac issues, and timely detection plays a major role in preventive healthcare. Our project focuses on combining classical ML techniques with deep learning approaches to improve diagnostic accuracy and reliability.
+This project builds an intelligent system for detecting arrhythmias from ECG signals using both classical machine learning techniques and emerging deep learning approaches. Arrhythmias—irregular heart rhythms—can indicate serious cardiac issues, and early detection is crucial for effective intervention. Our goal is to create a robust, accurate, and healthcare-focused classification pipeline.
 
 ⭐ Project Overview
 
-We designed a complete machine learning pipeline that processes ECG signals, extracts meaningful heartbeat patterns, and classifies them into different arrhythmia types.
-Because real‐world medical datasets often suffer from imbalance, we used SMOTE to generate synthetic samples for minority arrhythmia classes and improve training stability.
+We developed a full workflow that reads ECG signals, preprocesses them, extracts meaningful features, and classifies different heartbeat types.
+To handle dataset imbalance—common in medical datasets—we applied SMOTE to oversample minority arrhythmia classes and improve model learning behavior.
 
-🔍 Machine Learning Models Explored
+🔍 Machine Learning Models
 
-To understand which approach works best for ECG classification, we trained and compared multiple models:
+The project includes performance comparison across multiple ML models:
 
 Logistic Regression
 
@@ -18,34 +18,41 @@ LightGBM
 
 XGBoost
 
-These models were evaluated using Precision, Recall, F1-Score, Accuracy, and Cohen’s Kappa, ensuring a comprehensive assessment. Boosting models performed particularly well with complex ECG patterns.
+Metrics such as Precision, Recall, F1-Score, Accuracy, and Cohen’s Kappa were used to evaluate model performance comprehensively.
 
-🧠 Deep Learning Approaches
+🧠 Deep Learning Using 8,000+ ECG Images
 
-To explore advanced representation learning for ECG signals, we experimented with:
+For deep learning, we used an ECG image dataset of more than 8,000 samples, where each heartbeat is converted into a 2D image representation. This allows neural networks to better learn waveform morphology and subtle heartbeat variations.
 
 1️⃣ Convolutional Neural Networks (CNNs)
 
-CNNs are effective at capturing local waveform patterns and temporal structures in ECG signals. Our initial experiments demonstrated promising performance and reduced manual feature engineering.
+CNNs help automatically extract spatial and temporal ECG features from image-form heartbeats.
 
 2️⃣ Capsule Networks (CapsNet)
 
-We also initiated testing with CapsNet, a deep learning architecture designed to preserve spatial hierarchies between features—something very valuable in ECG morphology analysis.
-CapsNet’s ability to understand the orientation and structure of waves (P-wave, QRS complex, T-wave) makes it a strong candidate for more robust arrhythmia classification, especially in cases where subtle shape variations matter.
+CapsNet was explored for its ability to capture hierarchical relationships between ECG components like the P-wave, QRS complex, and T-wave, making it suitable for recognizing subtle arrhythmia patterns.
 
 🔧 Skills & Techniques Gained
 
-This project strengthened our expertise in:
+ECG preprocessing and denoising
 
-ECG preprocessing and noise filtering
+Feature engineering
 
-Feature engineering for biomedical signals
+Imbalanced data handling with SMOTE
 
-Handling imbalanced medical datasets (SMOTE)
+Model training, tuning, and evaluation
 
-Model comparison and evaluation
+Image-based deep learning (CNN + CapsNet)
 
-Deep learning experimentation (CNN + CapsNet)
+Building reproducible ML pipelines for healthcare
+
+👥 Team
+
+Developed by Team GenAI (4 members) and presented at TechnoPHILIA’25, the 8th National Level Poster & Project Competition at MIT Academy of Engineering, Alandi.
+
+🚧 Deep Learning Module Status
+
+The deep learning component (CNN & CapsNet) is currently in a working and experimental state, with ongoing improvements and evaluation.
 
 Building ML pipelines for healthcare applications
 
