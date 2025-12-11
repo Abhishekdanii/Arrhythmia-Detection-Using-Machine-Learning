@@ -10,13 +10,13 @@ To handle dataset imbalance—common in medical datasets—we applied SMOTE to o
 
 The project includes performance comparison across multiple ML models:
 
-Logistic Regression
+1] Logistic Regression
 
-Random Forest
+2] Random Forest
 
-LightGBM
+3] LightGBM
 
-XGBoost
+4] XGBoost
 
 Metrics such as Precision, Recall, F1-Score, Accuracy, and Cohen’s Kappa were used to evaluate model performance comprehensively.
 
@@ -34,17 +34,17 @@ CapsNet was explored for its ability to capture hierarchical relationships betwe
 
 🔧 Skills & Techniques Gained
 
-ECG preprocessing and denoising
+1] ECG preprocessing and denoising
 
-Feature engineering
+2] Feature engineering
 
-Imbalanced data handling with SMOTE
+3] Imbalanced data handling with SMOTE
 
-Model training, tuning, and evaluation
+4] Model training, tuning, and evaluation
 
-Image-based deep learning (CNN + CapsNet)
+5] Image-based deep learning (CNN + CapsNet)
 
-Building reproducible ML pipelines for healthcare
+6] Building reproducible ML pipelines for healthcare
 
 👥 Team
 
@@ -56,6 +56,4 @@ The deep learning component (CNN & CapsNet) is currently in a working and experi
 
 Building ML pipelines for healthcare applications
 
-👥 Team
 
-Developed by Team GenAI (4 members) and presented at TechnoPHILIA’25, the 8th National Level Poster & Project Competition at MIT Academy of Engineering, Alandi.
